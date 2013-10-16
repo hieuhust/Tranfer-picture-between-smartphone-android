@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CameaUAV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="remote_service_started">Service started</string>
+	<string name="remote_service_stopped">Service stopted</string>
+	<string name= "remote_service_connected">Remote Service connected</string>
+	<string name= "remote_service_disconnected">Remote Service connected</string>
+</resources>
