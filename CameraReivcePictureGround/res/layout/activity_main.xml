@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/activity_main_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/activity_main_edtIP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="IP" />
+
+        <EditText
+            android:id="@+id/activity_main_edtPort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="Port" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/activity_main_spSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <Spinner
+        android:id="@+id/activity_main_spFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <Spinner
+        android:id="@+id/activity_main_spScene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" 
+        android:text="Quality"/>
+
+    <SeekBar
+        android:id="@+id/activity_main_seekbarQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/activity_main_valueSeekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/activity_main_edtNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="numberDecimal"
+            android:hint="Number of Picture" />
+
+        <EditText
+            android:id="@+id/activity_main_edtDelay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="interval" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:text="So buc anh nhan duoc: "/>
+	<TextView 
+	    android:id="@+id/activity_main_tv_num"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="0"
+	    android:textSize="20sp"/>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+		<Button 
+		    android:id="@+id/activity_main_getPara"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="GetParameter"/>
+        <Button
+            android:id="@+id/btn_Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CameraGround</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="remote_service_started">Service started</string>
+	<string name="remote_service_stopped">Service stopted</string>
+	<string name= "remote_service_connected">Remote Service connected</string>
+	<string name= "remote_service_disconnected">Remote Service connected</string>
+	<string name= "MainActivity_disconnect">Disconnect</string>
+	<string name= "MainActivity_number">numberPicture</string>
+	
+	
+	<string name="size_picture">Choose a SizePiture</string>
+
+    <string-array name="size_picture_arrays">
+        <item>3264x2448</item>
+        <item>3264x1836</item>
+        <item>2560x1920</item>
+        <item>2048x1536</item>
+        <item>2304x1296</item>
+        <item>1280x960</item>
+        <item>1536x864</item>
+    </string-array>
+    
+    <string name="flash_mode">Choose a SizePiture</string>
+    <string-array name="flash_mode_arrays">
+        <item>FLASH_MODE_AUTO</item>
+        <item>FLASH_MODE_OFF</item>
+        <item>FLASH_MODE_ON</item>
+        <item>FLASH_MODE_TORCH</item>
+    </string-array>
+    
+    <string name="sence_mode">Choose a SizePiture</string>
+    <string-array name="sence_mode_arrays">
+         <item>SCENE_MODE_AUTO</item>
+        <item> SCENE_MODE_ACTION</item>
+        <item>SCENE_MODE_LANDSCAPE</item>
+        <item>SCENE_MODE_NIGHT</item>
+        <item>SCENE_MODE_NIGHT_PORTRAIT</item>
+        <item>SCENE_MODE_PORTRAIT</item>
+        <item>SCENE_MODE_SPORTS</item>
+    </string-array>
+   <string name ="test">Test</string>
+   <string-array name ="test_array">
+       
+   </string-array> 
+   
+</resources>
